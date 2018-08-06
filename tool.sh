@@ -1,12 +1,14 @@
 #!/bin/bash
-clear
-echo "\a"
-read -p "Ready Installed :v ? [y/n] " kontol;
 
-if [ $kontol = Y ] || [ $kontol = y ]; then
-     echo "starting..."
-     sleep 0.7
+echo " Tools BY IndoKarjok ";
+read -p "Ready Installed :v ? (Y/N)" yn
+
+if [ $yn -eq y ]; then
+
+echo "starting..."
+sleep 0.7
 clear
+
 echo "[#...................]5%";
 sleep 0.2;
 clear
@@ -321,7 +323,7 @@ echo "starting toolS... /";
 sleep 0.1;
 clear
 
-clear
+
 echo " \033[32m ________________             ";
 echo '         < ACCSESS DANIED >            ';
 echo '          ----------------             ';
@@ -331,6 +333,7 @@ echo '                 (__)    )\            ';
 echo '                    ||--|| *           ';
 sleep 0.2;
 clear
+
 echo " \033[32m ________________             ";
 echo '         < ACCSESS DANIED >            ';
 echo '          ----------------             ';
@@ -340,6 +343,7 @@ echo '                 (__)    )\            ';
 echo "                    ||--|| *           ";
 sleep 0.2;
 clear
+
 echo " \033[32m ________________             ";
 echo '         < ACCSESS DANIED >            ';
 echo '          ----------------             ';
@@ -349,6 +353,7 @@ echo '                 (__)    )\            ';
 echo '                    ||--|| *           ';
 sleep 0.2;
 clear
+
 echo " \033[32m ________________             ";
 echo '         < ACCSESS DANIED >            ';
 echo '          ----------------             ';
@@ -358,6 +363,7 @@ echo '                 (__)    )\            ';
 echo '      Mwoooh        ||--|| *           ';
 sleep 0.3;
 clear
+
 echo " \033[32m successful installed.        ";
 sleep 0.2;
 clear
@@ -417,7 +423,7 @@ elif [ $command -eq 5 ];
                 cd data/ && chmod +x autoreport-fb.rb && ruby autoreport-fb.rb
 fi
 
-if [ $kontol = N ] || [ $kontol = n ]; then
+elif [ %yn -eq n]; then
      echo "Mampir Lagi y Coeq :V"
 
 fi
