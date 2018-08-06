@@ -1,3 +1,4 @@
+#!/bin/bash
 clear
 echo "starting tools... /";
 sleep 0.1;
